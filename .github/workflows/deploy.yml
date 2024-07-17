@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
 
-      - name: Install pnpm 
+      - name: Install pnpm
         run: npm install -g pnpm
 
       - name: Install dependencies
@@ -68,4 +68,3 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: .
-
