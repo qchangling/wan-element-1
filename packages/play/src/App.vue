@@ -1,10 +1,7 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    <WanButton>你好</WanButton>
-  </div>
+  <w-button></w-button>
 </template>
 
 <style scoped>
